@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.nanmaxBy;
+})();
 })();
 </script>
 ```
@@ -213,6 +215,7 @@ var v = nanmaxBy.ndarray( 3, x, 1, x.length-3, accessor );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanmax-by@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function fill() {
     if ( randu() < 0.2 ) {
@@ -231,6 +234,7 @@ console.log( x );
 var v = nanmaxBy( x.length, x, 1, accessor );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -334,15 +338,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd
+[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats-base-max-by/tree/umd
+[@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats-base-max-by/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax/tree/umd
+[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanmin-by]: https://github.com/stdlib-js/stats-base-nanmin-by/tree/umd
+[@stdlib/stats/base/nanmin-by]: https://github.com/stdlib-js/stats-base-nanmin-by/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats-base-snanmax/tree/umd
+[@stdlib/stats/base/snanmax]: https://github.com/stdlib-js/stats-base-snanmax/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
