@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nanmaxBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanmax-by@esm/index.mjs';
+import nanmaxBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanmax-by@v0.2.1-esm/index.mjs';
 ```
 
 #### nanmaxBy( N, x, stride, clbk\[, thisArg] )
@@ -199,7 +199,7 @@ var v = nanmaxBy.ndarray( 3, x, 1, x.length-3, accessor );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import nanmaxBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanmax-by@esm/index.mjs';
+import nanmaxBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanmax-by@v0.2.1-esm/index.mjs';
 
 function fill() {
     if ( randu() < 0.2 ) {
