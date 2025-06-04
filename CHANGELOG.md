@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-06-04)
+
+<section class="features">
+
+### Features
+
+-   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5653](https://github.com/stdlib-js/stdlib/issues/5653)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - **feat:** refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`9e0a066`](https://github.com/stdlib-js/stdlib/commit/9e0a0664d313b17adcad1731477a218a77151d47) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b644709`](https://github.com/stdlib-js/stdlib/commit/b64470944253e6c2be920aa4e066146bd9ab11f2) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
@@ -26,9 +49,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
+-   Gautam Kaushik
+-   Gururaj Gurram
 -   Philipp Burckhardt
 
 </section>
