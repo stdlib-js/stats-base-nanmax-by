@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-04)
+## Unreleased (2025-06-07)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e0b7f74`](https://github.com/stdlib-js/stdlib/commit/e0b7f74093ddcbf5184374319fcad09f32d0013a) - **refactor:** remove unreachable code path _(by Athan Reines)_
 -   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - **feat:** refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`9e0a066`](https://github.com/stdlib-js/stdlib/commit/9e0a0664d313b17adcad1731477a218a77151d47) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b644709`](https://github.com/stdlib-js/stdlib/commit/b64470944253e6c2be920aa4e066146bd9ab11f2) - **refactor:** update paths _(by Aayush Khanna)_
