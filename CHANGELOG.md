@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`03f6481`](https://github.com/stdlib-js/stdlib/commit/03f6481a6a63000e179e552d90de286b167e7402) - **docs:** add missing private annotations _(by Athan Reines)_
 -   [`bc5a3af`](https://github.com/stdlib-js/stdlib/commit/bc5a3af4b75d1666d0dc52a6f84ab25fb981047d) - **docs:** fix note _(by Athan Reines)_
 -   [`e0b7f74`](https://github.com/stdlib-js/stdlib/commit/e0b7f74093ddcbf5184374319fcad09f32d0013a) - **refactor:** remove unreachable code path _(by Athan Reines)_
 -   [`d13caae`](https://github.com/stdlib-js/stdlib/commit/d13caae55b9ac197dad519efe76192b6a21fb04d) - **feat:** refactor and add protocol support to `stats/base/nanmax-by` [(#6469)](https://github.com/stdlib-js/stdlib/pull/6469) _(by Gautam Kaushik, Athan Reines, stdlib-bot, Gururaj Gurram)_
